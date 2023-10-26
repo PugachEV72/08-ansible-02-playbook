@@ -11,7 +11,7 @@
 
 Виртуальная машина `clickhouse-01` разворачивается в Yandex Cloud при помощи Terraform:
 
->>[TERRAFORM](https://github.com/PugachEV72/08-ansible-02-playbook/terraform_vm) 
+>> [TERRAFORM](https://github.com/PugachEV72/08-ansible-02-playbook/tree/main/terraform_vm) 
 
 ---
 
@@ -36,7 +36,7 @@
 
 ![Скриншот 3](https://github.com/PugachEV72/Images/blob/master/2023-10-26_22-47-08.png)
 
->>[PLAYBOOK](https://github.com/PugachEV72/08-ansible-02-playbook/playbook/site.yml)
+>> [PLAYBOOK](https://github.com/PugachEV72/08-ansible-02-playbook/blob/main/playbook/site.yml)
 
 ---
 
@@ -91,10 +91,9 @@
 
 ### Playbook
 
-Playbook производит установку и настройку приложений для сбора и передачи логов на сервер `clickhouse-01`.
-Первый play объединяет последовательность задач по инсталяции Clickhouse. Блоку соответствует тэг  
-`clickhouse`. Второй play объединяет последовательность задач по инсталяции Vector. Блоку соответствует  
-тэг `vector`.
+Playbook производит установку и настройку приложений для сбора и передачи логов на сервер `clickhouse-01`.  
+Первый play объединяет последовательность задач по инсталяции Clickhouse. Блоку соответствует тэг `clickhouse`.  
+Второй play объединяет последовательность задач по инсталяции Vector. Блоку соответствует тэг `vector`.
 
 ## Variables
 
@@ -118,7 +117,7 @@ Playbook производит установку и настройку прил�
 
 ### Ответ:
 
->>[PLAYBOOK](https://github.com/PugachEV72/08-ansible-02-playbook/playbook/)
+>> [PLAYBOOK](https://github.com/PugachEV72/08-ansible-02-playbook/tree/main/playbook)
 
 ---
 
